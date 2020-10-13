@@ -1,0 +1,141 @@
+body{
+    background-color:rgb(255, 255, 255);
+    text-align:center;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    font-size:90%;
+    font-family:"Bahnschrift light", sans-serif;
+}
+footer{
+    background-color:rgb(228, 228, 228);
+    margin:0px 0px 0px 0px;
+    padding:1% 1% 1% 1%;
+}
+footer a{
+    text-decoration:none;
+    color:rgb(165, 135, 0);
+    padding: 60px;
+}
+footer a:hover{
+    color:rgb(202, 182, 93);
+}
+footer a:active{
+    color:rgb(255, 255, 255);
+}
+footer p{
+    padding-top:10px;
+    color:white;
+}
+#exterieur{
+    position:relative;
+}
+#menuHori{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    margin:0;
+    padding:5px;
+    background-color:rgb(228, 228, 228);
+    z-index: 10;
+    opacity: 70%;
+}
+#menuHori a{
+    padding:8px;
+    text-decoration: none;
+    color:rgb(165, 135, 0); 
+}
+#menuHori a:hover{
+    background-color:rgb(223, 223, 223);
+    color:rgb(165, 135, 0);
+}
+#menuHori a:active{
+    background-color: rgb(165, 135, 0);
+    color:rgb(255, 255, 255);
+}
+#Nom{
+    font-family: "Ink Free", sans-serif;
+    font-size:400%;
+}
+#Accueil {
+    
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#imageHaut{
+    width:100%;
+    opacity:90%;
+}
+#groupe1 img{
+    width:50%;
+}
+#groupe2 img{
+    width:50%;
+}
+#groupe1 th{
+    padding:0% 4% 1% 4%;
+    background-color:rgb(165, 135, 0); 
+    color:white;
+}
+#groupe1 th:hover{
+    background-color:rgb(207, 180, 59); 
+}
+#groupe2{
+    margin-left:15%;
+    margin-right:15%;
+}
+#groupe2 th{
+    padding:0% 4% 1% 4%;
+    background-color:rgb(194, 194, 194); 
+}
+#groupe2 th:hover{
+    background-color:rgb(228, 228, 228);
+}
+#bouton{
+    background-color:rgb(165, 135, 0);
+    border-color:white;
+    outline-color:white;
+    color:white;
+    width:200px;
+    height:40px;
+    font-size:100%;
+}
+#bouton:hover{
+    background-color:rgb(196, 177, 95);
+    color:white;
+}
+#bouton:active{
+    background-color:rgb(212, 212, 212);
+    color:rgb(165, 135, 0);
+}
+#bouton a{
+    text-decoration: none;
+    color:white;
+}
+#bouton a:active{
+    color:rgb(165, 135, 0);
+}
+.presentationPage{
+    width:100%;
+    margin-top:10%;
+    margin-bottom:13%;
+}
+.tableaude2{
+    margin-left:auto;
+    margin-right:auto;
+}
+.tableaude2 th{
+    padding-left:5%;
+    padding-right:5%;
+}
+.tableaude2 img{
+    width:100%;
+}
+.centrertexte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

@@ -1,0 +1,35 @@
+body{
+    font-size:85%;
+}
+h2{
+    color:rgb(165, 135, 0);
+}
+h4{
+    color:rgb(87, 87, 87);
+}
+#Blog{
+    text-align:left;
+    border:solid rgb(173, 173, 173) 20px;
+    margin:10% 10% 10% 10%;
+    padding: 2% 2% 2% 2%;
+}
+#menuDroite{
+    position:fixed;
+    opacity: 75%;
+    background-color:rgb(165, 135, 0);
+    width:15%;
+    top:50%;
+    left:85%;
+    padding:1%;
+}
+#menuDroite a{
+    text-decoration:none;
+    color:white;
+    display:block;
+}
+#menuDroite a:hover{
+    color:rgb(73, 60, 0);
+}
+#menuDroite a:active{
+    color:rgb(211, 200, 153);
+}
